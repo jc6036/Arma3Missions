@@ -1,3 +1,4 @@
+# To run, copy this script into the mission folder and run it from an addAction on some object. 
      jump_alt = _this select 0;
      jump_safety = _this select 1;
      _pole = _this select 2;
