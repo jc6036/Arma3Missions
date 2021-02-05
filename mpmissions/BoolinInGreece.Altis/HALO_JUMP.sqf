@@ -1,3 +1,4 @@
+//[1000,100,this] execVM "HALO_JUMP.sqf"; Place this on an object in the editor to enable the use of this function.
      jump_alt = _this select 0;
      jump_safety = _this select 1;
      _pole = _this select 2;

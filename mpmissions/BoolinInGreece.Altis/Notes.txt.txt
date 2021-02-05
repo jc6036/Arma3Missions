@@ -1,0 +1,1 @@
+[ "AmmoboxInit", [ _this, true, {(_this distance _target) < 10} ] ] call BIS_fnc_arsenal; // Use this call for the init on a supply drop to give the drop an arsenal.

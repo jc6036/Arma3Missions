@@ -1,0 +1,66 @@
+Arma Zeus Module Idea Draft
+
+Module 1
+Random Objective Generator
+
+Place module in world using zeus
+
+Parameters
+- Area: use to determine area wherein objectives can exist
+- Number: How many objectives to spawn in area
+- Type: Fields to enter possibility percentage of each objective type
+  - Gather Intel
+  - Attack/Defend
+  - Neutralize Target
+  - Destroy Cache
+  - Destroy Vehicle
+  - Destroy SAM site
+  - Rescue Hostage
+- Enemy Faction: This value will be used to figure out which faction to pull objective objects from
+- Friendly Faction: Default to zeus's faction, but still allow to be set
+- Reveal objective location to assignee?
+- Add objects to zeus?
+
+Module 2
+Random Enemies
+
+Place module in world using zeus
+
+Parameters
+- Area: Determine circle in which enemies will be placed
+- Min Infantry
+- Max Infantry
+- Infantry Chance
+- Min Light Vehicles
+- Max Light Vehicles
+- Light Vehicle Chance
+- Min APCs
+- Max APCs
+- APC Chance
+- Min Helos
+- Max Helos
+- Helo chance
+- Min Tanks
+- Max Tanks
+- Tank Chance
+- Infantry Group Size
+- Infantry Patrol Range
+- Faction
+- Add objects to zeus?
+- Movement: may choose a module placed by module 3, or select nothing
+  - Stand Still
+  - Patrol
+  - Move towards waypoint X (populate with Enemy Waypoint module locations)
+- Movement Pace: Decides how AI will approach waypoint
+  - Fast: Run in, ready to engage
+  - Medium: Jog, Aware
+  - Slow: Patrol speed
+  - Stealth: Set AI to stealth mode
+  - Patrol: Also patrol speed
+
+Module 3
+Enemy Waypoint
+
+Place module in world
+
+Determines location for spawned enemies to move to.
